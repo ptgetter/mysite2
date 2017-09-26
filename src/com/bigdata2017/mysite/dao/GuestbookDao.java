@@ -158,7 +158,7 @@ public class GuestbookDao {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 
 			// Connection 가져오기
-			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String url = "jdbc:oracle:thin:@192.168.1.9:1521:xe";
 			conn = DriverManager.getConnection(url, "webdb", "webdb");
 
 		} catch (ClassNotFoundException e) {
